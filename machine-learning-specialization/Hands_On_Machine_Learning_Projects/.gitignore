@@ -1,0 +1,10 @@
+# Données téléchargées automatiquement par les notebooks (inutile de les versionner)
+datasets/
+# Modèles entraînés (fichiers lourds, régénérables)
+models/
+*.pkl
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+# environnement python
+.venv/
