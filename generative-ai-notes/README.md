@@ -1,4 +1,3 @@
-# generative-ai-notes
+# Generative AI for Everyone (Andrew Ng)
 
-Notes de cours et exercices.
-
+Mes notes du cours. Rien pour l'instant.

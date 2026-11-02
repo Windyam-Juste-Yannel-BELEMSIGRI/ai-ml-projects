@@ -1,4 +1,3 @@
-# deep-learning-specialization
+# Deep Learning Specialization (DeepLearning.AI)
 
-Notes de cours et exercices.
-
+Mes notes du cours. Rien pour l'instant.

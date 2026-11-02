@@ -1,4 +1,3 @@
-# ai-for-everyone-notes
+# AI For Everyone (Andrew Ng)
 
-Notes de cours et exercices.
-
+Mes notes du cours. Rien pour l'instant.
