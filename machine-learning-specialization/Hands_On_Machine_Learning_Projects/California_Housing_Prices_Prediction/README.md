@@ -24,9 +24,9 @@ Tout le notebook prend environ 5 minutes, c'est surtout la recherche d'hyperpara
 
 1. Cadrer le problème, choisir la métrique (RMSE).
 2. Télécharger et regarder les données : valeurs manquantes (`total_bedrooms`), valeurs plafonnées, distributions asymétriques.
-3. Mettre de côté un jeu de test **stratifié** sur le revenu (20 %), **avant** d'explorer.
+3. Mettre de côté un jeu de test stratifié sur le revenu (20 %), avant d'explorer.
 4. Explorer : carte, corrélations, nouveaux ratios (`bedrooms_ratio`, `rooms_per_house`, `people_per_house`).
-5. Tout le prétraitement dans un **pipeline** scikit-learn : imputation, one-hot, log, standardisation, et similarité à 10 clusters géographiques (transformateur perso K-means + RBF). Ça donne 24 features.
+5. Tout le prétraitement dans un pipeline scikit-learn : imputation, one-hot, log, standardisation, et similarité à 10 clusters géographiques (transformateur perso K-means + RBF). Ça donne 24 features.
 6. Comparer les modèles en validation croisée (10 plis).
 7. Régler la forêt aléatoire (`GridSearchCV` puis `RandomizedSearchCV`), regarder les importances et les erreurs.
 8. Évaluer une seule fois sur le test, sauvegarder avec `joblib`.
@@ -41,7 +41,7 @@ Tout le notebook prend environ 5 minutes, c'est surtout la recherche d'hyperpara
 | Gradient boosting (HGB, en bonus) | ~45 400 $ |
 | Forêt aléatoire réglée (`RandomizedSearchCV`) | ~42 100 $ |
 
-Sur le jeu de test, modèle final : **RMSE ≈ 41 400 $**, intervalle de confiance à 95 % entre 39 500 $ et 43 700 $.
+Sur le jeu de test, modèle final : RMSE ≈ 41 400 $, intervalle de confiance à 95 % entre 39 500 $ et 43 700 $.
 
 La variable la plus importante c'est le revenu médian (~19 %), ensuite le fait d'être dans les terres (`INLAND`).
 

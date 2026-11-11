@@ -18,7 +18,7 @@ Mes notes de cours et mes exercices en IA et machine learning. Je suis le parcou
 
 Prédire le prix d'une voiture à partir de son kilométrage (`dataset/data.csv`). Lecture du CSV, nuage de points, hypothèse `prix = θ0 + θ1 × km`, fonction de coût, puis descente de gradient codée à la main.
 
-Le problème que j'ai eu : sans normaliser les données, le kilométrage est tellement grand que le taux d'apprentissage doit descendre vers **1e-11** pour que ça ne diverge pas. La suite logique : normaliser, et comparer avec scikit-learn.
+Le problème que j'ai eu : sans normaliser les données, le kilométrage est tellement grand que le taux d'apprentissage doit descendre vers 1e-11 pour que ça ne diverge pas. La suite logique : normaliser, et comparer avec scikit-learn.
 
 ## California Housing
 
@@ -30,7 +30,7 @@ Les notebooks ont leurs dépendances dans `machine-learning-specialization/Hands
 
 ```bash
 python -m venv .venv
-source .venv/Scripts/activate
+source .venv/Scripts/activate        # sous Linux : source .venv/bin/activate
 pip install -r machine-learning-specialization/Hands_On_Machine_Learning_Projects/requirements.txt
 jupyter notebook
 ```
